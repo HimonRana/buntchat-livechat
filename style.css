@@ -1,0 +1,15 @@
+#messages {
+    height: 300px;
+}
+
+#status {   
+    background: rgba(183, 150, 58, 0.494);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px 0 10px 0;
+    transition: bottom 1s ease-in-out;
+}
+
+.animate {
+    opacity: .4;
+}
