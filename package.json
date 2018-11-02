@@ -9,7 +9,10 @@
   "author": "Himon Rana",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
     "mongodb": "^3.1.8",
+    "mongoose": "^5.3.5",
     "socket.io": "^2.1.1"
   },
   "devDependencies": {

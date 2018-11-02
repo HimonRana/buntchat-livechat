@@ -33,7 +33,7 @@
 
         // Handle message output
         socket.on('output', function (data) {
-            // console.log(data)
+            console.log(data)
             if (data.length) {
                 for (var i = 0; i < data.length; i++) {
                     // Build message div
@@ -51,14 +51,14 @@
         socket.on('status', function (data) {
             // Get message status
             setStatus((typeof data === 'object') ? data.message : data);
-            
+
             // If status is clear, clear text
             if (data.clear) {
                 textarea.value = '';
             }
         });
-        
-        
+
+
         textarea.addEventListener('keypress', function (event) {
             if (event.which === 13 && event.shiftKey == false) {
 
